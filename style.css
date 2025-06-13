@@ -1,0 +1,39 @@
+.formelements{
+ width:600px;
+ margin:0 auto 20px;
+}
+#p{
+   text-align:center;
+}  
+body{
+    font-family:Arial, Helvetica, sans-serif,cursive;
+    font-size: 120%;
+}
+input{
+    width:350px;
+    font-size:25px;
+    border-radius: 6%;
+    border:black solid 1px;
+    padding: 5px 10px 5px 10px;
+}
+#submit{
+    margin-left:575px;
+     width:120px;
+}
+label{
+      width:200px;
+      float:left;
+      position: relative;
+      top:15px;
+   
+}
+ #message {
+      margin: 10px 0;
+      font-size: 0.95rem;
+    }
+    .error { color: red; }
+    .success { color: green; }
+    .formelements {
+      margin-bottom: 10px;
+    }
+
