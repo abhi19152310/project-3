@@ -8,6 +8,9 @@ $("#togglePassword").click(function () {
   input.attr("type", type);
   $(this).text(type === "password" ? "Show" : "Hide");
 });
+$("#pno").on("input", function () {
+  this.value = this.value.replace(/\D/g, '').slice(0, 10);
+});
   $("#submit").click(function (event) {
     event.preventDefault(); 
 
