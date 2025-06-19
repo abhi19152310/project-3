@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>project-3</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery.js"></script>
+</head>
+<body>
+  <div class="form">
+    <div id="p">
+      <h1>Validation Form</h1>
+    </div>
+    <form id="main-form">
+      <div id="message"></div>
+
+      <div class="formelements">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email">
+      </div>
+
+      <div class="formelements">
+        <label for="pno">Phone Number</label>
+    <input id="pno" name="pno" type="text" maxlength="10" pattern="\d*">
+      </div>
+
+      <div class="formelements">
+  <label for="password">Password</label>
+  <input id="password" name="password" type="password">
+  <button type="button" id="togglePassword">Show</button>
+</div>
+
+      <div class="formelements">
+        <label for="confirm-password">Confirm Password</label>
+        <input id="confirm-password" name="confirm-password" type="password">
+      </div>
+
+      <input id="submit" name="submit" type="submit" value="Submit">
+    </form>
+  </div>
+
+ <script src="script.js">
+</script>
